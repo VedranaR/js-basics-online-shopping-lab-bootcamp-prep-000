@@ -17,14 +17,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  if(cart.length===0){
-    console.log("Your shopping cart is empty.");
-  }
-  else{
-
-    cart.length===1 ? console.log(`In your cart, you have ${item} at $ ${price}.`):
-    cart.length===2? console.log(`In your cart, you have ${cart[0][item]} at $ ${cart[0][price]} and ${cart[1][item]} at $ ${cart[1][price]}.`):
-    cart.length===3? console.log(`In your cart, you have ${cart[0][item]} at $ ${cart[0][price]}, ${cart[1][item]} at $ ${cart[1][price]} and ${cart[2][item]} at $ ${cart[2][price]}.`)}
+  
 }
 
 function total() {
