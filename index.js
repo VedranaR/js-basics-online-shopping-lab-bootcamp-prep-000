@@ -33,7 +33,6 @@ function viewCart() {
   else if (cart.length === 2){console.log(`${y} ${middle}.`)}
   else if (cart.length > 2){return(`${y} ${beginning}, and ${end}.`)}
   }
-}
 
 function total() {
   // write your code here
