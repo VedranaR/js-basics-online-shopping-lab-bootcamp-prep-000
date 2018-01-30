@@ -11,7 +11,7 @@ function setCart(c) {
 
 function addToCart(item) {
   item = {itemName: (Math.floor(Math.random() * 100))};
-  for(i=0; i<cart.length; i++){
+  for(let i=0; i<cart.length; i++){
     cart.push(item);
 }
   console.log(`$(itemName) has been added to your cart.`);
